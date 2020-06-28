@@ -49,7 +49,8 @@
           </li>
         </ul>
     </div>
-    <button class="btn btn-secondary" data-target="#signin" data-toggle="modal">Signup</button>
+    <button class="btn btn-secondary" data-target="#login" data-toggle="modal" >Sign In</button>
+    <button class="btn btn-secondary" data-target="#signin" data-toggle="modal">Sign Up</button>
     </nav>
 <!--Nav bar closed  -->
 
@@ -100,11 +101,81 @@
 <!--Carousel closed  -->
 
 
+<div class="modal fade" id="login">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title">Login-Form</h3>
+              <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+              <div class="modal-body">
+                  <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate pariatur natus modi ipsa provident esse debitis repellat ut quos delectus.</p> -->
+                  <form class="m mx-auto py-5 mx-5 needs-validation" novalidate>
+                      <div class="container bg-white py-5">
+                          <div class="row">
+                  <div class="col">
+                      <div class="form-group">
+                      <label for="user">Username</label>
+                      <span class="input-group-addon">
+                          <i class="fa fa-user" aria-hidden="true"></i>
+                      </span>
+                      <input type="text" id="user" class="form-control" required placeholder="Enter username">
+                      <div class="invalid-feedback">Please enter valid username</div>
+                  </div>
+              </div>
+                  <div class="col">
+                      <div class="form-group">
+                      <label for="pass">Password</label>
+                      <span class="input-group-addon">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                      </span>
+                      <input type="text" id="pass" class="form-control" required placeholder="Enter Password">
+                      <div class="invalid-feedback">Please enter the password</div>
+                  </div>
+              </div>
+              </div>
+                  <div class="col">
+                      <div class="form-group">
+                      <label for="email">Email-Id</label>
+                      <span class="input-group-addon">
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                      </span>
+                      <input type="text" id="email" class="form-control" required placeholder="Enter Email-Id">
+                  </div>
+                 <div class="form-group">
+                      <label for="">Gender</label>
+                  <div class="form-check form-check-inline">
+                      <input type="radio" id="m" name="v" class="form-check-input">
+                      <label class="form-check-label" for="m">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <input type="radio" id="f" name="v" class="form-check-input">
+                      <label class="form-check-label" for="f">Female</label>
+                  </div>
+                  </div>
+                  <div class="form-check">
+                      <input type="checkbox" id="" class="form-check-input">
+                      <label class="form-check-label" for="">RememberMe</label>
+                  </div>
+                  <div>
+                  <button type="submit" class="btn btn bg-success w-100">Submit</button>
+              </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
     <div class="modal" id="signin">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">SignUp</h3>
+                    <h3 class="modal-title">Sign Up</h3>
                     <button class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
