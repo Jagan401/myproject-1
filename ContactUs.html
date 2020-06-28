@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <style>
+        .m{
+            width: 800px;
+        }
+        .jumbotron-fluid .display-4{
+            background-image: url(/Images/20.jpg);
+            min-height: 400px;
+        }
+        .navbar .btn{
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;
+        }
+        .navbar .nav-item:hover{
+          background: silver;
+          border-top-right-radius: 25px;
+          border-bottom-left-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-primary">
+        <a class="navbar-brand" href=""> <img src="Images/2.jpg" class="img-thumbnail" width="40" alt=""></a>
+        <button class="navbar-toggler" data-target="#nav" data-toggle="collapse"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link text-white" href="">Home</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link text-white" href="AboutUs.html" target="blank">AboutUs</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link text-white" href="">ContactUs</a>
+        </li>
+        </ul>
+    </div>
+    <button class="btn btn-secondary" data-target="#signin" data-toggle="modal">Signup</button>
+    </nav>
+
+
+
+
+
+<div class="jumbotron-fluid">
+<h1 class="display-4 text-primary" >CONTACT US</h1>
+<h1 class="text-center text-primary">Interested in discussing?</h1>
+<form class="m ml-auto py-5 mx-5">
+<div class="container bg-white py-5">
+                
+<div class="row">
+<div class="col-sm-12">
+<label for="user">Name <small>*</small></label>
+<input type="text" id="user" class="form-control" required placeholder="Enter Name">
+                
+</div>
+            
+<div class="col-sm-12">
+<label for="email">Email <small>*</small></label>
+<input type="text" id="email" class="form-control" required placeholder="Enter Email">
+    
+</div>
+<div class="col-sm-12">
+<label for="phone">Phone</label>
+<input type="text" id="phone" class="form-control" required placeholder="Enter Phone">
+        
+</div>
+<div class="col-sm-12">
+   
+<label for="mess">Message</label>
+<input type="text" id="mess" class="form-control" required placeholder="Enter Message"><br>
+       
+</div>
+
+<input type="submit" class="btn btn-primary" value="Send">
+</div>
+</div>
+</form>
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>
